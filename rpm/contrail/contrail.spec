@@ -38,10 +38,6 @@ License:            ASL 2.0
 URL:                www.opencontrail.org
 Vendor:             OpenContrail Project.
 
-%description
-Contrail package describes all sub packages that are required to
-run open contrail.
-
 BuildRequires:  make
 BuildRequires:  gcc
 BuildRequires:  systemd-units
@@ -71,6 +67,10 @@ BuildRequires:  cassandra-cpp-driver-devel
 BuildRequires:  libzookeeper-devel
 BuildRequires:  librdkafka-devel >= 0.9.0
 BuildRequires:  grok-devel
+
+%description
+Contrail package describes all sub packages that are required to
+run open contrail.
 
 %prep
 
